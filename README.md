@@ -9,3 +9,12 @@ Portfolio to showcase skills and knowledge acquired in the last 8 weeks
 - Added responsive navBar
 - Added main container
 - Added hero image
+
+## Latest commits
+
+# 4/22/20
+
+- Added class "sticky top" to navBar to make position it to the top of the viewport after scrolling
+- Added skills section
+
+https://themes.muffingroup.com/be/resume/

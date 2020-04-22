@@ -1,8 +1,17 @@
+body {
+  height: 2000px;
+}
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("Assets\Images\portfolioPicture.jpg");
   height: 700px;
 
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,10 +19,31 @@
 }
 
 .hero-text {
-  text-align: center;
+  display: block;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 80%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.hero-wrapper {
+  width: 100%;
+}
+
+.skills-container {
+  background-color: #b69270;
+  height: 200px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.skill-bar-container {
+  border: solid black;
+}
+.progress {
+  align-content: center;
+  margin-top: 4px;
 }
