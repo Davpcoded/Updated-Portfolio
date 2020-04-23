@@ -16,5 +16,8 @@ Portfolio to showcase skills and knowledge acquired in the last 8 weeks
 
 - Added class "sticky top" to navBar to make position it to the top of the viewport after scrolling
 - Added skills section
+- Added progress bars
+- Added experience section
+- Added portfolio section
 
 https://themes.muffingroup.com/be/resume/

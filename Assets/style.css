@@ -1,5 +1,5 @@
 body {
-  height: 2000px;
+  height: 4000px;
 }
 .container {
   padding-left: 0px;
@@ -32,7 +32,7 @@ body {
 }
 
 .skills-container {
-  background-color: #b69270;
+  background-color: #dbc596;
   height: 200px;
 }
 
@@ -41,9 +41,53 @@ body {
 }
 
 .skill-bar-container {
-  border: solid black;
+  float: left;
 }
+
 .progress {
   align-content: center;
   margin-top: 4px;
+}
+
+.title {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.row-cols-3 {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.experience-header {
+  clear: both;
+  height: 100px;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.job-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.jobs-row {
+  margin-bottom: 150px;
+}
+
+.portfolio-header {
+  clear: both;
+  height: 120px;
+  background-color: #5f5d5d;
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 30px;
+  color: #ffffff;
 }
