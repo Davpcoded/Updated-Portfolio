@@ -16,12 +16,17 @@ recomended browser: Chrome Version 80.0.3987.132
 
 ## Latest commits
 
+# 4/24/20
+
+- Polished UI
+- Improved responsiveness on portfolio section
+
 # 4/23/20
 
 - Added image grid to the portfolio section
 - Added education section
 - Added education time line
-- wireframe completed
+- wireframe 1.0.0 completed
 
 # 4/22/20
 
