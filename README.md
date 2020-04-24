@@ -21,6 +21,7 @@ recomended browser: Chrome Version 80.0.3987.132
 - Added image grid to the portfolio section
 - Added education section
 - Added education time line
+- wireframe completed
 
 # 4/22/20
 
