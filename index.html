@@ -24,6 +24,7 @@
   </head>
   <body>
     <!-- Navbar -->
+    <div class="container navbar-container sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="opacity: 0.9;">
       <a class="navbar-brand" href="#" style="margin-left: 30px;">Daniel Villarroel</a>
       <button
@@ -43,48 +44,43 @@
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+    </div>
     <!-- Main Container -->
-    <div class="container main-container">
-      <!-- Hero Image -->
-      <div class="row">
-        <div class="hero-wrapper">
-          <div class="hero-image">
-            <img
-              class="hero-image"
-              style="width: 100%;"
-              src="Assets\Images\portfolioPicture.jpg"
-            />
-            <!-- hero Text -->
-            <div class="hero-text">
-              <h2>Daniel Villarroel</h2>
-              <p>Web-developer</p>
-              <p style="text-align: right;">Vestibulum dapibus, mauris nec malesuada fames ac turpis velit,
-                rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac
-                ipsum. Integer aliquam purus.</p>
-            </div>
+    <!-- Hero Image -->
+    <section class="container">
+          <div  id="plx" class="main-container">
+          <!-- hero Text -->
+          <div class="hero-text">
+            <h2>Daniel Villarroel</h2>
+            <p>Web-developer</p>
+            <p style="text-align: right;">Vestibulum dapibus, mauris nec malesuada fames ac turpis velit,
+              rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac
+              ipsum. Integer aliquam purus.</p>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
+    </section>
     <!-- Skills section -->
-    <div class="container skills-container">
+    <section>
+    <div id="skills" class="container skills-container">
       <div class="skills-section-header">
         <h2 class="skills-header">My skills</h2>
       </div>
@@ -130,8 +126,9 @@
         </div>
       </div>
     </div>
+    </section>
     <!-- Experience Section -->
-    <div class="container experience-section-header">
+    <div id="experience" class="container experience-section-header">
       <h1 class="experience-header">Experience</h1>
     </div>
     <div class="container experience-section">
@@ -214,35 +211,38 @@
       </div>
     </div>
     <!-- Portfolio Section -->
-    <div class="container portfolio-header-section">
+    <div id="portfolio" class="container portfolio-header-section">
       <h1 class="portfolio-header" >Portfolio</h1>
     </div>
     <div class="container">
-      <div class="row" style="text-align: center;">
+      <div class="row" style="text-align: center;">        
         <div class="col-lg portfolio-grid">
-          <img src="https://i.picsum.photos/id/723/285/200.jpg" />
+          <a href="https://davpcoded.github.io/Recipe-Master/" target="_blank">
+          <img height="200" width="285" src="Assets\Images\RecipeMaster.png" />
+          </a>
         </div>
         <div class="col-lg portfolio-grid">
-          <img src="https://i.picsum.photos/id/723/285/200.jpg" />
+          <a href="https://davpcoded.github.io/Password-generator/" target="_blank">
+          <img height="200" width="285" src="Assets\Images\PasswordGenerator.png" />
+          </a>
         </div>
         <div class="col-lg portfolio-grid">
-          <img src="https://i.picsum.photos/id/723/285/200.jpg" />
-        </div>
-        <div class="col-lg portfolio-grid">
-          <img src="https://i.picsum.photos/id/723/285/200.jpg" />
+          <a href="https://davpcoded.github.io/Code-quiz/" target="_blank">
+          <img height="200" width="285" src="Assets\Images\CodeQuiz.png" />
+          </a>
         </div>
       </div>
     </div>
     <!-- Education Section -->
-    <div class="container education-header">
+    <div id="education" class="container education-header">
       <h1 class="education-header-text" >Education</h1>
     </div>
     <div class="container">
       <div class="timeline">
         <div class="timeline-container left">
           <div class="content">
-            <h2 style="color: #ffffff;">2017</h2>
-            <p style="color: #ffffff;">
+            <h2 style="color: #505050;">2017</h2>
+            <p style="color: #505050;">
               Lorem ipsum.Vestibulum dapibus, mauris nec malesuada fames ac
               turpis velit, rhoncus eu, luctus et interdum adipiscing wisi.
               Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor
@@ -253,8 +253,8 @@
         </div>
         <div class="timeline-container right">
           <div class="content">
-            <h2 style="color: #ffffff;">2016</h2>
-            <p style="color: #ffffff;">
+            <h2 style="color: #505050;">2016</h2>
+            <p style="color: #505050;">
               Lorem ipsum. Vestibulum dapibus, mauris nec malesuada fames ac
               turpis velit, rhoncus eu, luctus et interdum adipiscing wisi.
               Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor
@@ -265,8 +265,8 @@
         </div>
         <div class="timeline-container left">
           <div class="content">
-            <h2 style="color: #ffffff;">2017</h2>
-            <p style="color: #ffffff;">
+            <h2 style="color: #505050;">2017</h2>
+            <p style="color: #505050;">
               Lorem ipsum.Vestibulum dapibus, mauris nec malesuada fames ac
               turpis velit, rhoncus eu, luctus et interdum adipiscing wisi.
               Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor
@@ -277,8 +277,8 @@
         </div>
         <div class="timeline-container right">
           <div class="content">
-            <h2 style="color: #ffffff;">2017</h2>
-            <p style="color: #ffffff;">
+            <h2 style="color: #505050;">2017</h2>
+            <p style="color: #505050;">
               Lorem ipsum. Vestibulum dapibus, mauris nec malesuada fames ac
               turpis velit, rhoncus eu, luctus et interdum adipiscing wisi.
               Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor
@@ -290,7 +290,7 @@
       </div>
     </div>
     <!-- Contact Section -->
-    <div class="container contact-card-container">
+    <div id="contact" class="container contact-card-container">
       <div class="form-row">
         <div class="col-lg-4">
           <div class="row">
@@ -308,10 +308,11 @@
             <a href="https://www.facebook.com/danielalejandro.villarroelposada" target="_blank" class="fa fa-facebook" style="float: right;"></a>
             <a href="https://www.instagram.com/danielongsk8/" target="_blank" class="fa fa-instagram" style="float: right;"></a>
             <a href="https://www.linkedin.com/in/daniel-alejandro-villarroel/" target="_blank" class="fa fa-linkedin" style="float: right;"></a>
+            <a href="https://github.com/Davpcoded" target="_blank" class="fa fa-github" style="float: right;"></a>
           </div>
         </div>
         <div class="col-lg-8">
-          <form>
+          <form action="mailto:handonsk82894@gmail.com" method="post" enctype="text/plain">
             <div class="row">
               <div class="col">
                 <input
@@ -343,7 +344,7 @@
               </div>
               <div class="w-100"></div>
               <div class="col-lg-2" style="margin-top: 5px;">
-                <input class="btn" style="background-color: #505050; color: #ffffff;" type="submit" value="Submit">
+                <input class="btn" style="background-color: #505050; color: #ffffff; width: 140px;" type="submit" value="Send a message"></button>
               </div>
             </div>
           </form>
