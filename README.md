@@ -35,5 +35,3 @@ recomended browser: Chrome Version 80.0.3987.132
 - Added progress bars
 - Added experience section
 - Added portfolio section
-
-https://themes.muffingroup.com/be/resume/
