@@ -12,12 +12,13 @@
 /* Parallax */
 #plx {
   height: 500px;
-  background-image: url("../Assets/Images/portfolioPicture.jpg");
+  background-image: url(../Assets/Images/portfolioPicture2-removebg-preview.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
-  width: 100%;
+  background-position: 200px 50px;
+  background-color: #303030;
 }
 
 .hero-text {
