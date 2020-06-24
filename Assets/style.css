@@ -1,4 +1,4 @@
-/* * {
+* {
   box-sizing: border-box;
 }
 
@@ -6,39 +6,24 @@ body {
   margin: 0;
   font-family: Arial;
   font-size: 17px;
-} */
+}
 
 .parallax {
-  /* The image used */
-  background-image: url("../Assets/Images/backkkk.jpg");
-
-  /* Set a specific height */
-
-  /* Create the parallax scrolling effect */
+  background-image: url("../Assets/Images/tenor.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .parallax2 {
-  /* The image used */
-  background-image: url("../Assets/Images/anotherback.jpg");
-
-  /* Set a specific height */
-
-  /* Create the parallax scrolling effect */
+  background-image: url("../Assets/Images/EagleRider_Seattle.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .parallax3 {
-  /* The image used */
-  background-image: url("../Assets/Images/experience-background.jpg");
-
-  /* Set a specific height */
-
-  /* Create the parallax scrolling effect */
+  background-image: url("../Assets/Images/tenor.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
