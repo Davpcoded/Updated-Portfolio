@@ -1,0 +1,31 @@
+.carousel {
+  height: 600px;
+  perspective: 600px;
+}
+
+.carousel .carousel-item {
+  width: 400px;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+}
+
+.carousel .carousel-item h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.carousel .carousel-item p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn {
+  background: none;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
