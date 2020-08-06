@@ -8,6 +8,9 @@ Personal Portfolio describing myself and showing what I do on a portfolio sectio
 
 ![Image](https://github.com/Davpcoded/Updated-Portfolio/blob/master/Images/index.html.gif)
 
+Follow the link to my portfolio: 
+https://davpcoded.github.io/Updated-Portfolio/
+
 ## User Story
 
 ```
