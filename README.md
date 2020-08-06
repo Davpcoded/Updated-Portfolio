@@ -6,7 +6,7 @@
 
 Personal Portfolio describing myself and showing what I do on a portfolio section, which includes pictures of my most recent projects.
 
-![Image](Images\index.html.gif)
+![Image](https://github.com/Davpcoded/Updated-Portfolio/blob/master/Images/index.html.gif)
 
 ## User Story
 
